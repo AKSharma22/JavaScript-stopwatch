@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+    <!-- link stylesheet css file -->
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <!-- Div class for main container -->
+    <div class="container">
+        
+<!-- container for show clock time hr,min sec -->
+        <div class="time-container">
+            <span class="txt" id="hr" >00</span>
+            <span class="hr">hr</span>
+
+            <span class="txt" id="min" >00</span>
+            <span class="min">min</span>
+
+            <span class="txt" id="sec" >00</span>
+            <span class="sec">sec</span>
+
+            <span class="txt" id="count" >00</span>
+            <span class="count"></span>
+
+<!-- container for stop,start,reset button -->
+            <div class="btn-container">
+                <button class="btn-start" onclick="start()">Start</button>
+                <button class="btn-stop" onclick="stop()">Stop</button>
+                <button class="btn-reset" onclick="reset()">Reset</button>
+
+            </div><!--btn container div end-->
+        </div><!--time container div end-->
+    </div> <!--container div end-->
+
+    <!-- <link javascript file -->
+    <script src="stopwatch.js"></script>
+</body>
+</html>

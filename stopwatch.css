@@ -1,0 +1,51 @@
+body{
+    background-image: url(airpodsimage.jpg);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+/* style main container */
+.container{
+    text-align: center;
+    padding: 150px 100px 100px 100px;
+    color: rgb(214, 212, 212);
+     font-size: 30px;
+    font-weight: bold;
+    
+}
+/* style span element using class inside time container */
+.txt{
+    font-size: 90px;
+}
+.btn-container{
+    padding: 90px;
+    
+
+}
+.btn-start{
+
+    font-size: 30px;
+    padding: 4px 7px;
+    margin-left: 20px;
+    background-color: rgb(32, 32, 113);
+    color: silver;
+}
+.btn-stop{
+    font-size: 30px;
+    padding: 4px 7px;
+    margin-left: 20px;
+    background-color: rgb(110, 26, 26);
+    color: silver;
+
+}
+.btn-reset{
+
+    font-size: 30px;
+    padding: 4px 7px;
+    margin-left: 20px;
+    background-color: rgb(129, 129, 46);
+    color: silver;
+}
+
